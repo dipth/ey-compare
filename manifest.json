@@ -1,0 +1,12 @@
+{
+"name":"Engineyard Deployment Comparison",
+"description":"Button for compairing currently deployed ref on EY with base branch",
+"version":"1",
+"manifest_version":2,
+"content_scripts": [
+    {
+      "matches": ["https://cloud.engineyard.com/apps/*"],
+      "js": ["compare.js"]
+    }
+  ]
+}
